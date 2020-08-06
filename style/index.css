@@ -67,7 +67,7 @@ a {
 /* Header */
 header {
 	padding: 1%;
-	border: 1px solid black;
+	border: 2px solid black;
 	background: #E9C46A;
 }
 header nav {
@@ -127,12 +127,14 @@ header nav a:hover{
 .about-me h2 {
 	font-size: 6rem;
 	padding: 4%;
-	margin: 10%;
+	margin: 2%;
 }
 .about-me p {
-	font-size: 2.4rem;
+	display: flex;
+	font-size: 3rem;
 	padding: 4%;
-	margin: 5%;
+	margin: 1% auto;
+	width: 100%;
 }
 .bottom-div {
 	display: flex;
@@ -152,7 +154,7 @@ img {
 }
 /* Footer */
 footer {
-	border: 2px solid grey;
+	border: 2px solid black;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -165,6 +167,11 @@ h3 {
 footer a {
 	padding: 1%;
 	color: black;
-	border: 1px solid black;
+	border: 2px solid black;
 	margin: 1%;
+	font-weight: bolder;
+	border-radius: 15px;
+}
+footer a:hover {
+	color: rgb(18, 99, 131);
 }
