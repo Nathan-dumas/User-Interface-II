@@ -1,1 +1,170 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END RESET */
+
+/* General Styles */
+section {
+    padding: 2%;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+	font-family: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    /* border: 1px solid grey; */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/* Header */
+header {
+	padding: 1%;
+	border: 1px solid black;
+	background: #E9C46A;
+}
+header nav {
+    /* margin: 1%; */
+	padding: 1%;
+	display: flex;
+	width: 100%;
+	justify-content: flex;
+}
+h1 {
+	font-size: 5rem;
+}
+header nav a {
+	display: flex;
+	padding: 1%;
+	width: 10%;
+	font-size: 2rem;
+	font-weight: bolder;
+	color: rgb(0, 0, 0);
+	border: 3px solid black;
+	justify-content: center;
+	margin: .03%;
+}
+header nav a:hover{
+	color: rgb(18, 99, 131);
+}
+
+/* Top of main */
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+	background: #2A9D8F;
+}
+.top-image {
+	width: 50%;
+}
+.top-image img {
+	display: flex;
+	width: 100%;
+	border-radius: 5%;
+}
+.top-div {
+	display: flex;
+	align-items: center;
+	padding: 1%;
+	margin: 1% auto;
+	width: 100%;
+}
+.about-me {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 0 auto;
+	padding:2%;
+	margin: 0 auto;
+}
+.about-me h2 {
+	font-size: 6rem;
+	padding: 4%;
+	margin: 10%;
+}
+.about-me p {
+	font-size: 2.4rem;
+	padding: 4%;
+	margin: 5%;
+}
+.bottom-div {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.bottom-div img {
+	width: 24%;
+}
+.row-one, .row-two {
+	display: flex;
+	justify-content: space-between;
+	margin: 1%;
+}
+img {
+	border: 5px solid rgb(31, 22, 153);
+}
+/* Footer */
+footer {
+	border: 2px solid grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2%;
+	background: #E9C46A;
+}
+h3 {
+	font-size: 3rem;
+}
+footer a {
+	padding: 1%;
+	color: black;
+	border: 1px solid black;
+	margin: 1%;
+}
