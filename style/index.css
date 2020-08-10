@@ -75,7 +75,6 @@ header nav {
 	padding: 1%;
 	display: flex;
 	width: 100%;
-	justify-content: flex;
 }
 h1 {
 	font-size: 5rem;
@@ -83,13 +82,13 @@ h1 {
 header nav a {
 	display: flex;
 	padding: 1%;
-	width: 10%;
+	width: 12%;
 	font-size: 2rem;
 	font-weight: bolder;
 	color: rgb(0, 0, 0);
 	border: 3px solid black;
 	justify-content: center;
-	margin: .03%;
+	margin: 0 1%;
 }
 header nav a:hover{
 	color: rgb(18, 99, 131);
@@ -174,4 +173,29 @@ footer a {
 }
 footer a:hover {
 	color: rgb(18, 99, 131);
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 3rem;
+	}
+	header nav a {
+		font-size: 1.2rem;
+		border: 2px solid black;
+	}
+	.top-div {
+		flex-direction: column;
+	}
+	.about-me {
+		width: 100%;
+	}
+	.about-me h2 {
+		font-size: 3rem;
+		width: 100%;
+		text-align: center;
+	}
+	.about-me p {
+		font-size: 2rem;
+		text-align: center;
+	}
 }
