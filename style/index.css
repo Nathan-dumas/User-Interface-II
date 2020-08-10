@@ -199,9 +199,14 @@ footer a:hover {
 	.top-image {
 		width: 75%;
 	}
+	.about-me {
+		width: 65%;
+	}
 	.about-me h2 {
 		font-size: 4rem;
 		text-align: center;
+		margin: 1%;
+		padding: 1%;
 	}
 	.about-me p {
 		font-size: 2.4rem;
@@ -217,5 +222,27 @@ footer a:hover {
 	.bottom-div img {
 		width: 80%;
 		margin: 5% 0;
+	}
+}
+@media (max-width: 500px) {
+	h1 {
+		font-size: 3.6rem;
+	}
+	header nav a {
+		font-size: 1.6rem;
+		width: 20%;
+	}
+	footer h3 {
+		font-size: 2.4rem;
+	}
+	footer a {
+		font-size: 1.2rem;
+		width: 20%;
+		text-align: center;
+		margin-top: 2%;
+	}
+	.about-me {
+		width: 90%;
+		border: 1px solid black;
 	}
 }
